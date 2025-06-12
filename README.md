@@ -1,7 +1,7 @@
 # Logic Solver
 
 <div align="center">
-  <img src="Pictures/ESI_Logo.png" alt="Logic Solver Logo" width="200">
+  
   <h3>Advanced Propositional Logic Solver with Resolution Refutation</h3>
   <p>Developed at École nationale Supérieure d'Informatique (ESI)</p>
 </div>
@@ -12,9 +12,6 @@
 
 Logic Solver is an advanced educational tool for analyzing and verifying propositional logic formulas expressed in **Conjunctive Normal Form (CNF)**. Using the **resolution by refutation** method introduced by **J.A. Robinson in 1965**, this tool allows users to create, manipulate, and test logic formulas through a simple graphical interface.
 
-<div align="center">
-  <img src="Pictures/capture.png" alt="Logic Solver Screenshot" width="600">
-</div>
 
 ---
 
@@ -42,7 +39,7 @@ Logic Solver is an advanced educational tool for analyzing and verifying proposi
 
 ### Installation
 
-1. Download the latest version from the [Releases](https://github.com/yourusername/logic-solver/releases) page
+1. Download the latest version from the [Releases](https://github.com/Boukehamohamedakram/TP_LOGM) page
 2. Extract the ZIP archive
 3. Make sure these files are in the same directory:
    - `gui_solver.exe`
@@ -98,11 +95,3 @@ Logic Solver works by attempting to derive an **empty clause** through resolutio
 - **Tautology Elimination**: Skip clauses with both `X` and `!X`
 - **Subsumption**: Remove redundant supersets of existing clauses
 - **Pure Literal Elimination**: Eliminate literals appearing with one polarity
-
----
-
-## 🌟 Examples
-
-### 🧨 Example 1: Contradiction
-
-File: `contradiction.cnf`
